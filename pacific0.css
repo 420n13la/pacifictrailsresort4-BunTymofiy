@@ -1,3 +1,6 @@
+img{
+	width: 1025px;
+}
 body { background-color: #3399CC;
       color: #666666;
 	  font-family: Verdana, Arial, sans-serif;
@@ -13,7 +16,7 @@ h1 { line-height: 200%;
      background-repeat: no-repeat;
      background-position: right;
      padding-left: 1em;
-     height: 72px;
+	 height: 72px;
 	 margin-bottom: 0;
 }
 nav { font-weight: bold;
@@ -35,9 +38,8 @@ footer { font-size: .70em;
 		 text-align: center; 
 		 padding: 1em;
 }
-main { padding-left: 2em;
-      padding-right: 2em;
-	  display: block;
+main 
+	 
 }
 #homehero { height: 300px;
            background-image: url(mycoast.jpg);
@@ -58,4 +60,5 @@ nav a { text-decoration: none; }
 		  min-width: 700px;
 		  max-width: 1024px;
 		  box-shadow: 3px 3px 3px #000033;
+		  
 }
